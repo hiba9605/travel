@@ -1,0 +1,374 @@
+*{
+    margin: 0px;
+    top: 0px;
+    padding: 0px;
+}
+.main{
+    background: url("https://image.cnbcfm.com/api/v1/image/107178919-1673854215895-gettyimages-669463000-shutterstock_621020393.jpeg?v=1674003106");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.head{
+    text-align: center;
+    margin-left: 800px;
+    margin-top: 30px;
+    font-family: "Pacifico", cursive;
+    font-size: 70px;
+    color: white;
+}
+#modal{
+    text-align: center;
+    margin-left: 1500px;
+    margin-top: 80px;
+    background-color: green;
+    color: white;
+}
+.card{
+    display: flex;
+}
+#body{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+#bt2{
+   
+    margin-left: 900px;
+    margin-top: 100px;
+}
+iframe{
+    margin-top: 50px;
+    margin-left: 50px;
+    
+    
+}
+
+#grid1{
+    background: url("https://t3.ftcdn.net/jpg/06/24/24/94/360_F_624249444_bqdDdZFqTxwmOKIoTQbiaYzn2BUuJkCB.jpg");
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+}
+#grid2{
+   background: url("https://i0.wp.com/www.tusktravel.com/blog/wp-content/uploads/2019/09/Mohiniyattam-Kerala-1.jpg?resize=800%2C600&ssl=1");
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+}
+#grid3{
+   background: url("https://www.swantour.com/blogs/wp-content/uploads/2019/04/Festivals-of-Kerala.jpg");
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+}
+#grid4{
+   background: url("https://www.keralatourism.org/images/artforms/large/thiruvathirakali_dance20190904055814_21_1.jpg");
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    margin-top: -100px;
+}
+#grid5{
+   background: url("https://thedancebible.com/cdn/shop/products/Women_Bharatanatyam_Dress3_4_0a94237a-0e70-4a12-845e-dbb8b4e912f3.jpg?v=1650566322");
+    height: 400px;
+    width: 300px;
+    margin-top: -100px;
+    background-size: cover;
+
+}
+#grid6{
+    background: url("https://www.assh.org/handcare/servlet/servlet.FileDownload?file=00P5b00000sz6BxEAI");
+    height: 100px;
+    width: 300px;
+    background-size: cover;
+    
+}
+#grid7{
+   background: url("https://media.istockphoto.com/id/503219304/photo/traditional-kathakali-dance-on-new-year-carnival.jpg?s=612x612&w=0&k=20&c=RgxVoXvUEfI901fjNAoAZv8O7UYLF-aKsjHO1Z6hfzY=");
+     height: 190px;
+     width: 300px;
+     margin-top: -200px;
+     background-size: cover;
+     
+   
+     
+ }
+
+ #grid9{
+     background: url("https://www.4to40.com/wp-content/uploads/2022/04/vishu.jpg");
+     height: 190px;
+     width: 300px;
+     margin-top: -200px;
+     background-size: cover;
+
+     
+ }
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-left: 950px;
+    margin-top: -500px;
+    
+}
+#north{
+    display: flex;
+    justify-content: space-around;
+}
+#premiumhead{
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
+#premium{
+    display: flex;
+    justify-content: space-around;
+    
+
+  
+}
+.img1{
+    background-color: rgb(223, 179, 126);
+    border-radius: 400px;
+    
+}
+#cardride{
+    border-radius: 60px;
+}
+#cardcamp{
+    border-radius: 60px;
+}
+#cardhour{
+    border-radius: 60px;
+}
+#cardguide{
+    border-radius: 60px;
+}
+#envelop{
+    margin-left: 900px;
+    height: 90px;
+    width: 90px;
+    margin-top: 20px;
+}
+#envelophead{
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    color: blue;
+
+}
+#customer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+#cus1{
+    background: url("https://www.catholicsingles.com/wp-content/uploads/2020/08/blog-header-9.png");
+    height: 200px;
+    width: 350px;
+    background-size: cover;
+}
+#cus2{
+    background: url("https://media.istockphoto.com/id/2149361464/photo/happy-couple-of-tourists-taking-selfie-picture-in-front-of-eiffel-tower-in-paris-france.webp?b=1&s=170667a&w=0&k=20&c=J1-CdZMFg3FwDHNHskdWssiJ9ZXjI1YsEVg40MOee8E=");
+    height: 200px;
+    width: 350px;
+    background-size: cover;
+}
+#cus3{
+    background: url("https://media.istockphoto.com/id/1446035173/photo/love-happy-and-couple-piggy-back-on-road-path-in-arizona-desert-in-usa-for-romantic-getaway.jpg?s=612x612&w=0&k=20&c=6FWDev2sf_NmftDx4qJbRJImHiZSQsq9HtQcu6uKW9E=");
+    height: 200px;
+    width: 350px;
+    background-size: cover;
+}
+#star1{
+    width: 150px;
+    margin-left: 100px;
+    height: 70px;
+    margin-top: 200px;
+    
+}
+#star2{
+    width: 150px;
+    margin-left: 100px;
+    height: 70px;
+    text-align: center;
+    margin-top: 200px;
+    
+
+}
+#star3{
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 200px;
+    height: 70px;
+}
+#star{
+    justify-content: space-around;
+    
+}
+.about{
+    background-color: rgb(7, 7, 79);
+    height: 350px;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    margin-left: 130px;
+    line-height: 1.2rem;
+
+}
+.icons{
+    text-align: center;
+    color: white;
+}
+#lastimg{
+    height: 150px;
+    margin-left: 1400px;
+    margin-top: -70px;
+}
+/* .rating{
+    display: flex;
+} */
+.feedback{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer{
+    margin-top: 50px;
+    background-color: navy;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.footer a{
+    color: white;
+}
+.footer h2{
+    color: orange;
+}
+.icons{
+    color: white;
+}
+.about{
+    line-height: 30px;
+}
+.icons i{
+    padding-left: 10px;
+
+
+
+}
+
+#carda:hover{
+    border-color: black;
+    border-right: black;
+    border-bottom: black;
+    width: 4px;
+
+}
+
+#cardb:hover{
+    border-color: black;
+    border-right: black;
+    border-bottom: black;
+    width: 4px;
+
+}
+
+#cardc:hover{
+    border-color: black;
+    border-right: black;
+    border-bottom: black;
+    width: 4px;
+
+}
+
+#cardd:hover{
+    border-color: black;
+    border-right: black;
+    border-bottom: black;
+    width: 4px;
+
+}
+.card{
+    position: relative;
+}
+img{
+    display: block;
+}
+.content{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(8, 180, 123, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+}
+.content:hover{
+    opacity: 75;
+}
+img:hover{
+    opacity: 100;
+}
+
+#honey{
+    font-family: "Pacifico", cursive;
+}
+#special{
+    font-family: "Pacifico", cursive;
+ 
+}
+#nit{
+    font-family: "Pacifico", cursive;
+}
+#fea{
+    font-family: "Pacifico", cursive;
+ 
+}
+
+@media (max-width:760px){
+
+    #customer{
+        display: block;
+    }
+    .head{
+        margin-left: -90px;
+    }
+    #bt1{
+        margin-left: 200px;
+    }
+    .feedback{
+        display: block;
+    }
+    .footer a{
+        
+        
+        margin-left: 30px;
+        
+    
+    }
+    #lasthead{
+        margin-left: 10px;
+    }
+    #envelop{
+        margin-left:280px;
+       
+    }
+
+  
+}
+
+
+
+
